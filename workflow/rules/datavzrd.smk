@@ -90,7 +90,7 @@ rule diffexp_datavzrd:
     log:
         "logs/datavzrd-report/diffexp.{model}/diffexp.{model}.log",
     wrapper:
-        "v3.8.0/utils/datavzrd"
+        "v3.10.2/utils/datavzrd"
 
 
 rule go_enrichment_datavzrd:
